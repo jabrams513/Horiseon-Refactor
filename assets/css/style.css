@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header formatting with navigation */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* main image on website */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +62,26 @@ p {
     background-position: center;
 }
 
+/* positions image to the side */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* positions image to the side */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* positions image to the side */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* formatting for benefits section which is an HTML aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,6 +109,7 @@ p {
     max-width: 150px;
 }
 
+/* Formatting for Horiseon main functions */
 .specialties {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,6 +128,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer formatting */
 .footer {
     padding: 30px;
     clear: both;
