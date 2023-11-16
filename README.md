@@ -1,4 +1,9 @@
-# User Story
+# Horiseon Refactor
+
+## Purpose
+My goal was to refactor the Horiseon code to improve accessibility and increase SEO metrics.
+
+## User Story
 AS A marketing agency
 
 I WANT a codebase that follows accessibility standards
@@ -27,3 +32,26 @@ THEN they fall in sequential order
 WHEN I view the title element
 
 THEN I find a concise, descriptive title
+
+## Description of Code Refactoring
+Created a unique title for the page.
+
+Added alt elements for images to improve accessibility and SEO.
+
+Avoided div soup by changing some elements to header, nav, main, section, aside, and footer in HTML. Made corresponding changes to CSS.
+
+DRY'd the code by minimizing class and ID redundancies that affected the HTML and CSS.
+
+Added notes and comments to HTML and CSS so collaborators and visitors could follow along.
+
+
+## Screenshot
+Please refer to the following screenshot as a reference for the web application's appearance and functionality:
+![Alt text](assets/images/Horiseon-Screenshot.png)
+
+## Code Sources and Collaborators
+I had the opportunity to collaborate with my peer Mustapha. We checked our work with one another.
+
+In addition, I received feedback from my instructor, Diego, and my TA, Andrew.
+
+All code used was self-generated or otherwise gathered from class materials.
